@@ -1,0 +1,5 @@
+Welcome to Git hands-on!
+
+This file is used to demonstrate initializing a repository, adding files, and committing changes.
+
+- Add more lines and commit to practice.
