@@ -1,0 +1,46 @@
+ANGULAR PROJECT FILE DOCUMENTATION
+
+1. angular.json
+   - Purpose: Angular CLI configuration file
+   - Contains: Project configuration, build options, asset paths, source root, output path
+   - Key settings: style language (scss), build commands, test runner configuration
+
+2. package.json
+   - Purpose: NPM package configuration and dependencies management
+   - Contains: Project metadata, version, scripts for ng commands, dependencies and devDependencies
+   - Key packages: @angular/core, @angular/router, rxjs, typescript, jasmine for testing
+
+3. tsconfig.json
+   - Purpose: TypeScript compiler configuration for the entire project
+   - Contains: Global TypeScript compiler options and settings
+   - Key settings: target ES version, module system, strict mode options
+
+4. tsconfig.app.json
+   - Purpose: TypeScript configuration specific to the application source code
+   - Contains: App-specific compiler options, extends tsconfig.json
+   - Used for: Compiling src/ directory
+
+5. src/main.ts
+   - Purpose: Entry point of the Angular application
+   - Contains: Bootstrap code that loads AppComponent and appConfig
+   - Functionality: Initializes the Angular application and mounts it to the DOM
+
+6. src/app/app.config.ts
+   - Purpose: Application configuration file
+   - Contains: ApplicationConfig object with provider setup
+   - Key setup: Router provider configuration from app.routes
+
+7. src/index.html
+   - Purpose: Main HTML file that loads the Angular application
+   - Contains: Document structure with <app-root> selector
+   - Metadata: Title, viewport, favicon, and base href settings
+
+8. src/styles.scss
+   - Purpose: Global stylesheet for the entire application
+   - Contains: Global CSS/SCSS rules that apply to all components
+   - Used for: Common styling, variables, mixins, base styles
+
+9. src/app (directory)
+   - Purpose: Contains all application components and logic
+   - Structure: Root component files and component hierarchy
+   - Files: app.component.*, app.config.ts, app.routes.ts
