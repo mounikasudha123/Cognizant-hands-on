@@ -1,0 +1,12 @@
+welcome to the version control
+
+This file is part of the Git hands-on demo.
+
+Use this file to practice the following commands:
+- dir (or ls)
+- type (or cat) welcome.txt
+- git init
+- git add welcome.txt
+- git commit -m "Add welcome.txt"
+
+Enjoy the hands-on!
