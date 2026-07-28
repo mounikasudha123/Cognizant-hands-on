@@ -1,0 +1,3 @@
+Welcome to the Git Hands-On demo!
+
+This file is created and committed by the setup script.
